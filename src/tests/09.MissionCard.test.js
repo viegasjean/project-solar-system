@@ -67,7 +67,7 @@ describe('9 - Crie um componente chamado `MissionCard`', () => {
 
     expect(missionYear).toHaveTextContent("2021");
   });
-  
+
   it('Será validado se é renderizado o texto recebido pela prop `country`', () => {
     const { year, name, country, destination } = missionTest;
     render(
@@ -83,7 +83,7 @@ describe('9 - Crie um componente chamado `MissionCard`', () => {
 
     expect(missionCountry).toHaveTextContent('URSS');
   });
-  
+
   it('Será validado se é renderizado o texto recebido pela prop `destination`', () => {
     const { year, name, country, destination } = missionTest;
     render(
